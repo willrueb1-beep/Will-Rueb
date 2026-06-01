@@ -1,0 +1,136 @@
+/* Will Rueb */
+/* please make sure you change the name of this file to styles.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    background-color: #f8f9fb;
+}
+
+/* Background Image with Transparency */
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #1d3557;
+}
+
+header h1 {
+    color: #1d3557;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #457b9d;
+    margin: 10px 0;
+}
+
+/* Profile Image */
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #457b9d;
+    margin-bottom: 10px;
+}
+
+/* Sections */
+section {
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border-left: 6px solid #457b9d;
+}
+
+section h2 {
+    color: #1d3557;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    color: #457b9d;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+    background-color: #f0f0f0;
+    padding: 20px 40px;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    list-style-position: inside;
+}
+
+ol {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Links */
+a {
+    color: #0b6e99;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px solid #1d3557;
+    margin-top: 20px;
+}
